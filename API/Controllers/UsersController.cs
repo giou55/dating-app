@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -18,17 +19,26 @@ namespace API.Controllers
             _context = context;
         }
 
+        // api/users
         [HttpGet]
-        public ActionResult<IEnumerable<AppUser>> GetUsers()
+        // synchronous code
+        // public ActionResult<IEnumerable<AppUser>> GetUsers()
+        // {
+        //     return _context.Users.ToList();
+        // }
+
+        public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
-            return _context.Users.ToList();
+            // another way instead of using the await keyword 
+            //return _context.Users.ToListAsync().Result;
+            return await _context.Users.ToListAsync();
         }
 
         // api/users/3
         [HttpGet("{id}")]
-        public ActionResult<AppUser> GetUser(int id)
+        public async Task<ActionResult<AppUser>> GetUser(int id)
         {
-            return _context.Users.Find(id);
+            return await _context.Users.FindAsync(id);
         }
     }
 }
