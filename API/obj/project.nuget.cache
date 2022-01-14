@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "wJ9hrJVzPusmixZ1/Ntb/nLWXWuJusBN4qQo3r8u+YfDWy91bWFZuv0v9oqX4VY55vBJg+68LQraJYNiaNqCfg==",
+  "dgSpecHash": "pNLxHgtMzvSRTVUv3IGCUZGf3zflkt2afNfuBZzf9UY2w00Oqne81Y2ApFdCc3nuD4PoJ4kOFp03LNfjB3kewg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\giour\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0-preview.7.21378.4\\microsoft.data.sqlite.core.6.0.0-preview.7.21378.4.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.7.21378.4\\microsoft.entityframeworkcore.6.0.0-preview.7.21378.4.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.7.21378.4\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.7.21378.4.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0-preview.7.21378.4\\microsoft.entityframeworkcore.analyzers.6.0.0-preview.7.21378.4.nupkg.sha512",
+    "C:\\Users\\giour\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.0-preview.7.21378.4\\microsoft.entityframeworkcore.design.6.0.0-preview.7.21378.4.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0-preview.7.21378.4\\microsoft.entityframeworkcore.relational.6.0.0-preview.7.21378.4.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\6.0.0-preview.7.21378.4\\microsoft.entityframeworkcore.sqlite.6.0.0-preview.7.21378.4.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\6.0.0-preview.7.21378.4\\microsoft.entityframeworkcore.sqlite.core.6.0.0-preview.7.21378.4.nupkg.sha512",

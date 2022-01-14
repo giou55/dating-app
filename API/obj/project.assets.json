@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Humanizer.Core/2.8.26": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/6.0.0-preview.7.21378.4": {
         "type": "package",
         "dependencies": {
@@ -48,6 +57,22 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Design/6.0.0-preview.7.21378.4": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0-preview.7.21378.4"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/6.0.0-preview.7.21378.4": {
@@ -477,6 +502,22 @@
     }
   },
   "libraries": {
+    "Humanizer.Core/2.8.26": {
+      "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "type": "package",
+      "path": "humanizer.core/2.8.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.2.8.26.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/netstandard1.0/Humanizer.dll",
+        "lib/netstandard1.0/Humanizer.xml",
+        "lib/netstandard2.0/Humanizer.dll",
+        "lib/netstandard2.0/Humanizer.xml",
+        "logo.png"
+      ]
+    },
     "Microsoft.Data.Sqlite.Core/6.0.0-preview.7.21378.4": {
       "sha512": "JKg0wx/snGPrXh7rvau0fkLJwt+xnFqFxzgLQBHk4+tUgQsiPsRTUZ12wLXkegAYqY5HH+fddnDqnazoRJ37JQ==",
       "type": "package",
@@ -533,6 +574,21 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.6.0.0-preview.7.21378.4.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Design/6.0.0-preview.7.21378.4": {
+      "sha512": "3buBoJUKSAF61I43t23OoRoZk8oeWxrqCC1r7c9fbf+FNPhMV+6VNHZ7xV0uGA23qYptG/PDoyuWmpjn5da24Q==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/6.0.0-preview.7.21378.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.6.0.0-preview.7.21378.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.0-preview.7.21378.4": {
@@ -1179,6 +1235,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.0-preview.7.21378.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.0-preview.7.21378.4",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -1189,11 +1246,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\DatingApp\\API\\API.csproj",
+      "projectPath": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\DatingApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\giour\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\DatingApp\\API\\obj\\",
+      "outputPath": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\giour\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1220,6 +1277,12 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.0-preview.7.21378.4, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[6.0.0-preview.7.21378.4, )"
