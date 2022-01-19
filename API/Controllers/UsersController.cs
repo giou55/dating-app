@@ -9,9 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class UsersController : ControllerBase
+    public class UsersController : BaseApiController
     {
         private readonly DataContext _context;
         public UsersController(DataContext context)
@@ -19,22 +17,23 @@ namespace API.Controllers
             _context = context;
         }
 
-        // api/users
-        [HttpGet]
         // synchronous code
         // public ActionResult<IEnumerable<AppUser>> GetUsers()
         // {
         //     return _context.Users.ToList();
         // }
 
+        // we write [HttpGet] to create a new endpoint for api/users
+        [HttpGet]
+        // asynchronous code
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
             // another way instead of using the await keyword 
-            //return _context.Users.ToListAsync().Result;
+            // return _context.Users.ToListAsync().Result;
             return await _context.Users.ToListAsync();
         }
 
-        // api/users/3
+        // we write [HttpGet("{id}")] to create a new endpoint for api/users/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<AppUser>> GetUser(int id)
         {
