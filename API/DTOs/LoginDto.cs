@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace API.DTOs
 {
-    public class RegisterDto
+    public class LoginDto
     {
         [Required] // data annotation
         public string Username { get; set;}
