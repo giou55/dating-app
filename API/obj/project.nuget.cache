@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pNLxHgtMzvSRTVUv3IGCUZGf3zflkt2afNfuBZzf9UY2w00Oqne81Y2ApFdCc3nuD4PoJ4kOFp03LNfjB3kewg==",
+  "dgSpecHash": "NqIDdj8lB87yeDABmV4ARN0inJwwP3ZKnhX9nHesNch3zAHuRtxiXsjqay8XZJMMhHs9bN/bIr5/ViL0OpfIvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\giour\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\giour\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0-preview.7.21378.4\\microsoft.data.sqlite.core.6.0.0-preview.7.21378.4.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.7.21378.4\\microsoft.entityframeworkcore.6.0.0-preview.7.21378.4.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.7.21378.4\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.7.21378.4.nupkg.sha512",
@@ -24,6 +25,9 @@
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0-preview.7.21377.19\\microsoft.extensions.logging.abstractions.6.0.0-preview.7.21377.19.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.extensions.options\\6.0.0-preview.7.21377.19\\microsoft.extensions.options.6.0.0-preview.7.21377.19.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-preview.7.21377.19\\microsoft.extensions.primitives.6.0.0-preview.7.21377.19.nupkg.sha512",
+    "C:\\Users\\giour\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.17.0\\microsoft.identitymodel.jsonwebtokens.6.17.0.nupkg.sha512",
+    "C:\\Users\\giour\\.nuget\\packages\\microsoft.identitymodel.logging\\6.17.0\\microsoft.identitymodel.logging.6.17.0.nupkg.sha512",
+    "C:\\Users\\giour\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.17.0\\microsoft.identitymodel.tokens.6.17.0.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.5-pre20210521085756\\sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210521085756.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\sqlitepclraw.core\\2.0.5-pre20210521085756\\sqlitepclraw.core.2.0.5-pre20210521085756.nupkg.sha512",
@@ -36,8 +40,10 @@
     "C:\\Users\\giour\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\system.collections.immutable\\6.0.0-preview.7.21377.19\\system.collections.immutable.6.0.0-preview.7.21377.19.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0-preview.7.21377.19\\system.diagnostics.diagnosticsource.6.0.0-preview.7.21377.19.nupkg.sha512",
+    "C:\\Users\\giour\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.17.0\\system.identitymodel.tokens.jwt.6.17.0.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.7.21377.19\\system.runtime.compilerservices.unsafe.6.0.0-preview.7.21377.19.nupkg.sha512",
+    "C:\\Users\\giour\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\system.text.encodings.web\\6.0.0-preview.7.21377.19\\system.text.encodings.web.6.0.0-preview.7.21377.19.nupkg.sha512",
     "C:\\Users\\giour\\.nuget\\packages\\system.text.json\\6.0.0-preview.7.21377.19\\system.text.json.6.0.0-preview.7.21377.19.nupkg.sha512"
   ],
